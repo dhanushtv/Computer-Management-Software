@@ -1,0 +1,282 @@
+def don():
+    a = int(input("CHOOSE YOUR OPTION  -> "))
+    if a==1:
+        print("1. DELL \n2. HP ")
+    if a==2:
+        print("1. APPLE IMAC\n2. HP DESKTOP")
+        e=int(input("CHOOSE YOUR OPTION -> "))
+        if e==1:
+            fun()
+        if e==2:
+            car()
+    if a==3:
+        print("1. ASUS ROGSTRIX SERIES\n2. MSI SERIES")
+        f=int(input("CHOOSE YOUR OPTION -> "))
+        if f==1:
+             cat()
+        if f==2:
+            bat()
+    if a==4:
+        print("1. NIVIDIA SERIES\n2. ASUS SERIES")
+        s=int(input("CHOOSE YOUR OPTION -> "))
+        if s==1:
+            the()
+        if s==2:
+            had()
+        
+    if a==5:
+        print("1. INTEL\n2. RYZEN")
+        z=int(input("CHOOSE YOUR OPTION -> "))
+        if z==1:
+            sit()
+        if z==2:
+            boy()
+
+    if a==6:
+        print("1. 4GB STICKS\n2. 8GB STICKS\n3. 16 GB STICKS\n4. 32 GB STICKS")
+        n=int(input("CHOOSE YOUR OPTION -> "))
+        if n==1:
+            can()
+        if n==2:
+            hat()
+        if n==3:
+            now()
+        if n==4:
+            how()
+
+
+    if a>=8:
+        print("You have entered the wrong number")
+    if a<1:
+        print("You have entered the wrong number")
+
+#CALLING 6TH OPTION a=6
+def can():
+    print("1. DAIMI 4GB DDR3 Ram for Laptop 1600 MHz | COST = 500\n2. DAIMI 4GB DDR4 Ram for Desktop 2400 Mhz with 3 Years Warranty | COST = 1000")
+    b=int(input("CHOOSE YOUR OPTION -> "))
+    if b==1:
+        print("YOU ARE CHOOSING DAIMI 4GB DDR3 Ram , COST = 500 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 510 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if b==2:
+        print("YOU ARE CHOOSING DAIMI 4GB DDR4 Ram , COST = 1,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 1010 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    y=int(input("CHOOSE YOUR OPTION -> "))
+    if y==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nAIMI 4GB DDR4 Ram         1,010")
+    if y==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nDAIMI 4GB DDR3 Ram          510")
+
+def hat():
+    print("1. CORSAIR Vengeance 8GB (8GBx1) 260-Pin DDR4 SO-DIMM Laptop RAM | COST = 3000\n2. DAIMI 8GB DDR4, RAM for Desktop 2133 MHz with 3 Year Warranty | COST = 2500")
+    x=int(input("CHOOSE YOUR OPTION -> "))
+    if x==1:
+        print("YOU ARE CHOOSING CORSAIR Vengeance 8GB , COST = 3,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 3,010 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if x==2:
+        print("YOU ARE CHOOSING DAIMI 8GB DDR4 , COST = 2,500 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 2,510 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    v=int(input("CHOOSE YOUR OPTION -> "))
+    if v==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nDAIMI 8GB DDR4         2,510")
+    if v==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nCORSAIR Vengeance 8GB          3,010")
+
+def now():
+    print("1. G.SKILL Trident Z RGB 16GB (1 * 16GB) DDR4 Desktop Memory RAM | COST = 6,000\n2. Kingston FURY Beast 16GB Desktop Memory Single Stick | COST = 5000")
+    f=int(input("CHOOSE YOUR OPTION -> "))
+    if f==1:
+        print("YOU ARE CHOOSING G.SKILL Trident Z RGB , COST = 6,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 6,100 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if f==2:
+        print("YOU ARE CHOOSING Kingston FURY Beast , COST = 5,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 5,000 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    l=int(input("CHOOSE YOUR OPTION -> "))
+    if l==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nKingston FURY Beast         5,000")
+    if l==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nG.SKILL Trident Z RGB          6,100")
+
+          
+def how():
+    print("1. HyperX Fury RGB 32GB 3000MHz Single Stick | COST = 10,000\n2. G.SKILL Trident Z RGB 32GB (2 * 16GB) DDR4 3200MHz DESKTOP RAM | COST = 13,000")
+    g=int(input("CHOOSE YOUR OPTION -> "))
+    if g==1:
+        print("YOU ARE CHOOSING HyperX Fury RGB 32GB , COST = 10,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 10,000 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if g==2:
+        print("YOU ARE CHOOSING G.SKILL Trident Z RGB 32GB , COST = 13,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 13,050 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    w=int(input("CHOOSE YOUR OPTION -> "))
+    if w==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nG.SKILL Trident Z RGB 32GB        13,050")
+    if w==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nHyperX Fury RGB 32GB          10,000")
+
+
+#CALLING 5TH OPTION a=5
+def sit():
+    print("1. Intel Core i3 10th Generation Desktop Processor 4 Cores 8 Threads | COST = 6,600\n2. Intel Core i5 12 Gen Generation Desktop PC Processor CPU up to 4.40 GHz Clock Speed | COST = 16,000")
+    x=int(input("CHOOSE YOUR OPTION -> "))
+    if x==1:
+        print("YOU ARE CHOOSING Intel Core i3 10 Gen , COST = 6,600 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 6,610 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if x==2:
+        print("YOU ARE CHOOSING Intel Core i5 12 Gen , COST = 16,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 16,000 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    r=int(input("CHOOSE YOUR OPTION -> "))
+    if r==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nIntel Core i5 12 Gen         16,610")
+    if r==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nIntel Core i3 10 Gen          6,610")
+       
+def boy():
+    print("1. AMD 4000 Series Ryzen 5 4500 Desktop Processor 6 cores 12 Threads | COST = 10,000\n2. AMD Ryzen 5 3500 Desktop Processor 6 Cores | COST = 12,000")
+    m=int(input("CHOOSE YOUR OPTION -> "))
+    if m==1:
+        print("YOU ARE CHOOSING AMD 4000 Series Ryzen 5 , COST = 10,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 10,000 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if m==2:
+        print("YOU ARE CHOOSING AMD Ryzen 5 3500 , COST =12,000  , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 12,010 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    h=int(input("CHOOSE YOUR OPTION -> "))
+    if h==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nAMD Ryzen 5 3500         12,010")
+    if h==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nAMD 4000 Series Ryzen 5          10,000")
+       
+
+#CALLING 4TH OPTION a=4
+def the():
+    print("1. NVIDIA Quadro T40| COST = 9,500\n2. NVIDIA Quadro RTX 6000 24GB GDDR6 Graphic Card | 24GB | COST = 20,000")
+    k=int(input("CHOOSE YOUR OPTION -> "))
+    if k==1:
+        print("YOU ARE CHOOSING NVIDIA Quadro T400 , COST = 9,500 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 9,550 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if k==2:
+        print("YOU ARE CHOOSING NVIDIA Quadro RTX 6000 , COST = 20,500 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 20,500 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    j=int(input("CHOOSE YOUR OPTION -> "))
+    if j==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nNVIDIA Quadro RTX 6000           9,550")
+    if j==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nNVIDIA Quadro T400            20,500")
+        
+def had():
+    print("1. ASUS ROG Strix AMD Radeon RX 6600 XT Edition Gaming Graphics Card | COST = 45,000\n2. AMD Radeon RX 6800 Edition Graphics Card| COST = 80,000")
+    u=int(input("CHOOSE YOUR OPTION -> "))
+    if u==1:
+        print("YOU ARE CHOOSING ASUS ROG Strix , COST = 45,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 45,100 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if u==2:
+        print("YOU ARE CHOOSING AMD Radeon RX 6000 , COST = 80,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 80,550 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    o=int(input("CHOOSE YOUR OPTION -> "))
+    if o==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nAMD Radeon RX 6000           80,500")
+    if o==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nASUS ROG Strix                45,100")
+        
+
+#CALLING 3RD OPTION a=3
+def cat():
+    print("1. ASUS ROG Strix B550-F Gaming WiFi 6 Gaming Motherboard| COST = 20,000\n2. ASUS ROG Strix B450-F Gaming AMD Ryzen ATX Motherboard | COST = 14,100")
+    i=int(input("CHOOSE YOUR OPTION -> "))
+    if i==1:
+        print("YOU ARE CHOOSING ASUS ROG STRIX B550 - F , COST = 20,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 20,500 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if i==2:
+        print("YOU ARE CHOOSING ASUS ROG STRIX B450 - F , COST = 14,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 14,500 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    t=int(input("CHOOSE YOUR OPTION -> "))
+    if t==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nASUS ROG STRIX B450 - F           14,500")
+        print("RETURN AND REFUND IS ACCEPTED FOR ALL THE PRODUCTS.\nIF THE AMOUNT HAS BEEN PAID THEN IT WILL BE REFUNDED WITH 3 - 4 WORKING DAYS")
+    if t==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                            COST\nASUS ROG STRIX B550 - F           20,500")
+        print("RETURN AND REFUND IS ACCEPTED FOR ALL THE PRODUCTS.\nIF THE AMOUNT HAS BEEN PAID THEN IT WILL BE REFUNDED WITH 3 - 4 WORKING DAYS")
+def bat():
+    print("1. MSI B450 Gaming PRO Carbon MAX WiFi AM4 DDR4 ATX Gaming Motherboard | COST = 15,000\n 2. MSI B560M PRO-VDH WiFi Micro-ATX Gaming Motherboard | COST = 10,000")
+    p=int(input("CHOOSE YOUR OPTION -> "))
+    if p==1:
+        print("YOU ARE CHOOSING MSI B450 , COST = 15,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 15,100 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if p==2:
+        print("YOU ARE CHOOSING MSI B560M , COST = 10,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 10,100 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    u=int(input("CHOOSE YOUR OPTION -> "))
+    if u==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                COST\nMSI B560M           14,500")
+    if u==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                COST\nMSI B450           20,500")
+
+
+#CALLING 2ND OPTION a=2
+def fun():
+    print("1. APPLE I MAC 1 | 64 GB RAM | M1 MAX CHIP | 256 GB HDD + 1 TB SSD | COST = 1,15,000\n2. APPLE I MAC 2 | 32 GB RAM | M1 PRO CHIP | 126 GB HDD + 500 GB SSD | COST : 85,000")
+    f=int(input("CHOOSE YOUR OPTION -> "))
+    if f==1:
+        print("YOU ARE CHOOSING APPLE I MAC 1 , COST = 1,15,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 1,25,000 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if f==2:
+        print("YOU ARE CHOOSING APPLE I MAC 2 , COST = 85,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 1,25,000 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    g=int(input("CHOOSE YOUR OPTION -> "))
+    if g==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                COST\nAPPLE I MAC 2           85,000")
+    if g==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                COST\nAPPLE I MAC 1           1,25,000")
+    
+def car():
+    print("1. HP DESKTOP | 16 GB RAM | INTEL I5 11TH GEN | 1 TB HDD | COST = 65,000\n2. AOC DESKTOP | 8 GB RAM | INTEL I3 11TH GEN | 500 GB HDD + 500 GB SSD | COST = 50,000")
+    h=int(input("CHOOSE YOUR OPTION -> "))
+    if h==1:
+        print("YOU ARE CHOOSING HP DESKTOP , COST = 65,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 65,100 \n FOR CONFIRMING YOUR ORDER ENTER 1")
+    if h==2:
+        print("YOU ARE CHOOSING AOC DESKTOP , COST = 50,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 50,100 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+    i=int(input("CHOOSE YOUR OPTION -> "))
+    if i==1:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"FOR SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                COST\nHP DESKTOP         65,100")
+    if i==2:
+        print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"FOR SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+        print("INVOICE:\nPRODUCT                COST\nAOC DESKTOP        50,100")
+
+    
+#INTRO
+z=str(input("Enter your name : "))
+y=int(input("Enter your number : "))
+x=input("Enter your address : ")
+print("RETURN AND REFUND IS ACCEPTED FOR ALL THE PRODUCTS.\nIF THE AMOUNT HAS BEEN PAID THEN IT WILL BE REFUNDED WITH 3 - 4 WORKING DAYS")
+print("\t\t\t THE WORLD COMPUTER STORE \t\t\t \n WELCOME MR/MS",z,"TO OUR SHOP \n OUR AVAILABLE SERVICES : \n 1. LAPTOPS \n 2. COMPUTER \n 3. MOTHERBOARD \n 4. GRAPHIC CARDS \n 5. PROCESSORS \n 6. RAM STICKS")
+print("To cancel the order call us on : 1800-108-108 , We are available 24 x 7")
+don()
+
+#CHOOSING LAPTOP
+b=int(input("CHOOSE YOUR OPTION -> "))
+if b==1:
+    print("1. DELL INSPIRON 3000 :- 8 GB RAM | 512 GB SSD | WINDOWS 11 | 11.5 INCH DISPLAY | INTEL i5 12TH GEN | COST = 45,000\n2. DELL INSPIRON 5000 :- 16 GB RAM | 256 SSD + 1 TB HDD | RYZEN 7 3500 U | COST = 95,000")
+if b==2:
+    print("3. HPS 15S | 8 GB RAM | 512 GB SSD | RYZEN 5 5000U | 14 INCH DISPLAY | WINDOWS 11 | COST = 50,000\n4. HP 14S | 4 GB RAM | 256 GB SSD | 11.5 INCH DISPLAY | WINDOWS 11 | COST = 25,000")
+c=int(input("CHOOSE YOUR OPTION -> "))
+if c==1:
+    print("YOU ARE CHOOSING DELL INSPIRON 3000 , COST = 45,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 45,100 \nFOR CONFIRMING YOUR ORDER ENTER 1,")
+if c==2:
+    print("YOU ARE CHOOSING DELL INSPIRON 5000 , COST = 95,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 95,100 \n FOR CONFIRMING YOUR ORDER ENTER 2")
+if c==3:
+    print("YOU ARE CHOOSING HP15S , COST = 50,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 50,100 \nFOR CONFIRMING YOUR ORDER ENTER 3")
+if c==4:
+     print("YOU ARE CHOOSING HP14S , COST = 25,000 , FOR CASH ON DELIVERY INCLUDING DELIVERY CHARGE TOTAL PRICE = 25,100 \nFOR CONFIRMING YOUR ORDER ENTER 4")
+
+d=int(input("CHOOSE YOUR OPTION -> ")) 
+if d ==1:
+    print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"FOR SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+    print("INVOICE:\nPRODUCT                COST\nDELL INSPIRON 3000    45,000")
+if d ==2:
+    print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"FOR SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+    print("INVOICE:\nPRODUCT                COST\nDELL INSPIRON 5000    95,000")
+if d==3:
+    print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"FOR SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+    print("INVOICE:\nPRODUCT                COST\nHP 15S                50,000")
+if d==4:
+    print("ORDER CONFIRMED !! \nTHANK YOU MR/MS",z,"FOR SHOPPING WITH US \n CONTACT US THROUGH : 9845745123")
+    print("INVOICE:\nPRODUCT                COST\nHP 14S                25,000")
